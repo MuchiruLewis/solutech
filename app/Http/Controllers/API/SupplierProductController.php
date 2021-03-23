@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Transformers\SupplierTransformer;
 use App\Supplier;
 use App\SupplierProduct;
-use Dingo\Api\Routing\Helpers;
 use Illuminate\Http\Request;
 
 class SupplierProductController extends Controller

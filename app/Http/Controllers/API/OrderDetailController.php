@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Transformers\OrderTransformer;
 use App\Order;
 use App\OrderDetail;
-use Dingo\Api\Routing\Helpers;
 use Illuminate\Http\Request;
 
 class OrderDetailController extends Controller
